@@ -16,10 +16,6 @@ async function test() {
     // Navigate to website
     await driver.get('http://automationpractice.com/index.php');
 
-    // Getting the title of the webpage and store it to var. !NOTE: We can use the stored value to compare with expected result.!
-    const title = await driver.getTitle();
-    console.log('getTitle:', title);
-
     // Find link "Women" and then click it
     await driver.findElement(By.xpath('//a[@title="Women"]')).click();
 
