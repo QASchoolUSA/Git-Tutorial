@@ -8,3 +8,5 @@ The repo is for education purpose only. Please use to practice the GIT commands.
     $ brew install git
   # Windows
     Download the EXE from this website https://git-scm.com/download/win and follow the installation process.
+
+Updated for testing purposes.
